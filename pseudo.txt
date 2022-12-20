@@ -1,0 +1,80 @@
+I) Create content
+    ✅ A) Header
+        ✅ 1) Photo
+        ✅ 2) Name
+        ✅ 3) Navbar
+            ✅ a) Home
+            ✅ b) About
+            ✅ c) Projects
+            ✅ d) Contact
+    ✅ B) Hero
+        ✅ 1) Photo
+        ✅ 2) Greeting
+    ✅ C) About
+        ✅ 1) Heading (side)
+        ✅ 2) Main content
+            ✅ a) Background
+            ✅ b) Education
+            ✅ c) Experience
+        ✅ 3) Side content
+            ✅ a) List of skills
+    ✅ D) Projects
+        ✅ 1) Heading (side)
+        ✅ 2) Project 1
+            ✅ a) Background
+            ✅ b) Title
+            ✅ c) Description
+        ✅ 3) Project 2
+            ✅ a) Background
+            ✅ b) Title
+            ✅ c) Description
+        ✅ 4) Project 3
+            ✅ a) Background
+            ✅ b) Title
+            c✅ ) Description
+    ✅ E) Contact
+        ✅ 1) Heading (side)
+        ✅ 2) Contact info
+            ✅ a) Email
+            ✅ b) LinkedIn
+            ✅ c) GitHub
+        ✅ 3) Contact form
+            ✅ a) Name
+            ✅ b) Email
+            ✅ c) Message
+            ✅ d) Submit button
+
+II) Style content
+    ✅ A) Global styles
+        ✅ 1) Box-sizing
+        ✅ 2) Font-family
+    ✅ B) Header
+        ✅ 1) Profile photo
+        ✅ 2) Nav links (pseudo-classes)
+    ✅ C) Hero
+        ✅ 1) Background
+        ✅ 2) Profile photo
+        ✅ 3) Greeting
+    ✅ D) About
+        ✅ 1) Side heading
+        ✅ 2) Main content
+        ✅ 3) Side content
+            ✅ a) Skill boxes
+    ✅ E) Projects
+        ✅ 1) Side heading
+        ✅ 2) Project 1
+            ✅ a) Background image
+        ✅ 3) Project 2
+            ✅ a) Background image
+        ✅ 4) Project 3
+            ✅ a) Background image
+    ✅ F) Contact
+        ✅ 1) Side heading
+        ✅ 2) Contact info
+        ✅ 3) Contact form
+
+III) Add functionality
+    ✅ A) Navbar links
+    ✅ B) Responsive layout (media queries)
+        ✅ 1) Tablet
+        ✅ 2) Phone

@@ -4,83 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Cha Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Raleway&family=Lora">
+    <title>Ben Cha | @bencha27 | Full-Stack Web Developer</title>
 </head>
 
 <body>
-    <header>
-        <h1>Ben Cha</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-projects">My Projects</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
-        </nav>
+    <header id="header">
+        <div id="header-content">
+            <div id="header-logo">
+                <img id="header-logo-img" src="./assets/images/Profile Picture.jpg" alt="Ben Cha profile photo">
+                <h1 id="header-logo-name">Ben Cha</h1>
+            </div>
+
+            <nav id="header-nav">
+                <ul id="header-nav-menu">
+                    <li class="header-nav-link-cont"><a class="header-nav-link" href="#hero">Home</a></li>
+                    <li class="header-nav-link-cont"><a class="header-nav-link" href="#about">About</a></li>
+                    <li class="header-nav-link-cont"><a class="header-nav-link" href="#projects">Projects</a></li>
+                    <li class="header-nav-link-cont"><a class="header-nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="about-me">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia sequi, nulla non quasi odit explicabo cupiditate, quaerat a itaque culpa dicta ea ipsum excepturi aliquid doloribus molestias. Voluptates mollitia recusandae sunt quasi odio debitis in doloribus, corporis perferendis quo vero ex vitae minima necessitatibus fugit fugiat voluptatibus labore praesentium! Necessitatibus.</p>
+        <div class="hero" id="hero">
+            <img id="hero-img" src="./assets/images/Profile Picture.jpg" alt="Benjamin Cha profile photo">
+            <div id="hero-text">
+                <p>Hi there!</p>
+                <p>I'm  <span id="name">Benjamin Cha</span>,</p>
+                <p>budding full-stack web developer.</p>
+            </div>
+        </div>
 
-            <img>
-        </section>
+        <div id="about">
+            <div class="side-heading">
+                <h2>About Me</h2>
+            </div>
 
-        <section id="my-projects">
-            <section id="project1">
-                <img>
-                
-                <h3>Project 1</h3>
+            <div class="content">
+                <div id="about-me">
+                    <h3>Background</h3>
+                    <ul>
+                        <li>Sprouted in South Korea, grown in SoCal & NorCal, transplanted to Colorado</li>
+                        <li>7+ years as a science educator (biology & chemistry)</li>
+                    </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse ratione enim tempore? Quo corporis, aliquam fugiat nam perferendis modi!</p>
-            </section>
+                    <h3>Education</h3>
+                    <ul>
+                        <li><span class="degree">Full-Stack Web Developer Boot Camp</span> | University of Denver</li>
+                        <li><span class="degree">M.A. Education</span> | Alliant International University</li>
+                        <li><span class="degree">B.A. Political Economy</span> | University of California, Berkeley</li>
+                    </ul>
 
-            <section id="project2">
-                <img>
-                
-                <h3>Project 2</h3>
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>Looking to launch my career as a developer!</li>
+                    </ul>
+                </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse ratione enim tempore? Quo corporis, aliquam fugiat nam perferendis modi!</p>
-            </section>
+                <div id="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="projects">
+            <div class="side-heading">
+                <h2>My Projects</h2>
+            </div>
 
-            <section id="project3">
-                <img>
-                
-                <h3>Project 3</h3>
+            <div class="content" id="project-container">
+                <div id="project1" class="project-box project-large">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem maxime nulla corporis eum ullam iste quibusdam! Voluptates, minus recusandae? Quam.</p>
+                </div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse ratione enim tempore? Quo corporis, aliquam fugiat nam perferendis modi!</p>
-            </section>
-        </section>
+                <div id="project-container-small">
+                    <div id="project2" class="project-box project-small">
+                        <h3>Project 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, laudantium!</p>
+                    </div>
+                    
+                    <div id="project3" class="project-box project-small">
+                        <h3>Project 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, laudantium!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <section id="contact-me">
-            <ul>
-                <li><a href="mailto:mrbenjamincha@gmail.com">mrbenjamincha@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/benjamin-cha/">LinkedIn</a></li>
-                <li><a href="https://github.com/bencha27">GitHub</a></li>
-            </ul>
+        <div id="contact">
+            <div class="side-heading">
+                <h2>Contact Me</h2>
+            </div>
 
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name"><br><br>
+            <div class="content">
+                <div id="contact-info">
+                    <ul>
+                        <li><a href="mailto:mrbenjamincha@gmail.com">mrbenjamincha@gmail.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/benjamin-cha/">LinkedIn</a></li>
+                        <li><a href="https://github.com/bencha27">GitHub (bencha27)</a></li>
+                    </ul>
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" id="email"><br><br>
+                <div id="contact-form">
+                    <form>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="form-name" placeholder="Who are you?"><br><br>
 
-                <label for="comments">Comments</label>
-                <input type="text" id="comments"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="form-email" placeholder="How can I reach you?"><br><br>
 
-                <input type="submit" value="Submit">
-            </form>
-            
-        </section>
+                        <label for="comments">Comments</label><br>
+                        <input type="text" id="form-comments" placeholder="What would you like to connect about?"><br><br>
 
-        <aside>
-            <h2>About Me</h2>
-
-            <h2>My Projects</h2>
-
-            <h2>Contact Me</h2>
-        </aside>
+                        <input id="submit-button" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
