@@ -52,15 +52,15 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
+  'Bootstrap',
+  'Node.js',
+  'Express',
+  'MongoDB',
+  'GraphQL',
+  'MySQL',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
