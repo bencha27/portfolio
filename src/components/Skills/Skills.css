@@ -18,9 +18,10 @@
 }
 
 .skills__list-item {
-  margin: 1em;
+  margin: 1rem;
 }
 
 .skills__list-item i {
   font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
