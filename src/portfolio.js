@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://bencha27.github.io/portfolio/',
+  title: 'BC',
 }
 
 const about = {
@@ -65,7 +65,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'mrbenjamincha@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
