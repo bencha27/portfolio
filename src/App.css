@@ -40,6 +40,14 @@ main {
   text-transform: uppercase;
 }
 
+.section__title::after {
+  border-bottom: .2em solid var(--clr-primary);
+  content: "";
+  display: block;
+  margin: .3em auto 0;
+  width: 1.5em;
+}
+
 .center {
   display: flex;
   align-items: center;
