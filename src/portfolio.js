@@ -66,6 +66,11 @@ const skills = [
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'mrbenjamincha@gmail.com',
+  resume: 'https://drive.google.com/file/d/1ozmaOheyDFmWmIZ35SNKDL7vbTzAB3E0/view?usp=sharing',
+  social: {
+    linkedin: 'https://www.linkedin.com/in/benjamin-cha/',
+    github: 'https://github.com/bencha27',
+  },
 }
 
 export { header, about, projects, skills, contact }
