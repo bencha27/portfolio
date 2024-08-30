@@ -1,3 +1,7 @@
+import screenshotVirtualBookClub from "./assets/images/screenshot-virtual-book-club.png";
+import screenshotBasicCalculator from "./assets/images/screenshot-basic-calculator.png";
+import screenshotGuardianGuide from "./assets/images/screenshot-guardian-guide.png";
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://bencha27.github.io/portfolio/',
@@ -21,28 +25,31 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Virtual Book Club',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Social media app where users can post reviews and comments on books',
+    stack: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Node.js", "Express", "MongoDB", "GraphQL"],
+    sourceCode: 'https://github.com/bencha27/virtual-book-club',
+    livePreview: 'https://virtual-book-club.herokuapp.com/',
+    image: screenshotVirtualBookClub
   },
   {
-    name: 'Project 2',
+    name: 'Basic Calculator',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Simple four-function calculator with some helpful features',
+    stack: ["HTML", "CSS", "JavaScript", "React"],
+    sourceCode: 'https://github.com/bencha27/basic-calculator',
+    livePreview: 'https://bencha27.github.io/basic-calculator/',
+    image: screenshotBasicCalculator
   },
   {
-    name: 'Project 3',
+    name: 'Guardian Guide',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Task management app for members of households to keep track of their tasks and events in one place',
+    stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MySQL", "Materialize"],
+    sourceCode: 'https://github.com/bencha27/Guardian-Guide',
+    livePreview: 'https://guardian-guide-1222.herokuapp.com',
+    image: screenshotGuardianGuide
   },
 ]
 
