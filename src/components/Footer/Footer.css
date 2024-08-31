@@ -4,10 +4,10 @@
   text-align: center;
 }
 
-.footer__link {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--clr-fg);
+.footer-name {
+  color: var(--clr-primary);
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 600px) {
