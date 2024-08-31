@@ -13,34 +13,32 @@ const Contact = () => {
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
       <div className='center'>
-        <a href={`mailto:${contact.email}`}>
+        <a href={`mailto:${contact.email}`} target="_blank" rel="noreferrer">
           <span type='button' className='btn btn--plain'>
             <EmailIcon fontSize='medium' />
             Email
           </span>
         </a>
 
-        <a href={resume}>
+        <a href={resume} target="_blank" rel="noreferrer">
           <span type='button' className='btn btn--plain'>
             <DocumentIcon fontSize='medium' />
             Resume
           </span>
         </a>
         
-        <a href={social.github}>
+        <a href={social.github} target="_blank" rel="noreferrer">
           <span type='button' className='btn btn--plain'>
             <GitHubIcon fontSize='medium' />
             GitHub
           </span>
         </a>
 
-        <a
-          href={social.linkedin}
-          aria-label='linkedin'
-          className='btn btn--plain'
-        >
-          <LinkedInIcon fontSize='medium' />
-          LinkedIn
+        <a href={social.linkedin} target="_blank" rel="noreferrer">
+          <span type='button' className='btn btn--plain'>
+            <LinkedInIcon fontSize='medium' />
+            LinkedIn
+          </span>
         </a>
       </div>
 
