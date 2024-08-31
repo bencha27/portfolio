@@ -6,7 +6,7 @@ import './ProjectContainer.css';
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <div className='project-image-container'>
-      <img src={project.image} alt="Screenshot of Virtual Book Club" />
+      <img src={project.image} alt={project.name} />
     </div>
 
     <div className='project-text-container'>

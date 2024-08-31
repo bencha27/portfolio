@@ -140,7 +140,7 @@ main {
 }
 
 .btn--plain:hover {
-  transform: translateY(-4px);
+  transform: translateY(-8px);
 }
 
 .btn--icon {

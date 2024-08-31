@@ -2,11 +2,19 @@
   flex-direction: column;
 }
 
-.contact .btn--outline {
-  margin: 0 1em;
-  font-size: 1rem;
+.contact a {
+  justify-content: center;
 }
 
-.contact .link--icon {
-  margin: 0 1em;
+.contact .btn {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.contact .btn svg {
+  margin-right: 0.3rem;
 }

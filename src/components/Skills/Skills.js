@@ -20,11 +20,6 @@ const Skills = () => {
     ["Git", "devicon-git-plain colored"]
   ]);
 
-  function deviconClass(skill) {
-    const name = deviconMap.get(skill);
-    return `devicon-${name}-plain colored`;
-  }
-
   return (
     <section className='section skills' id='skills'>
       <h2 className='section__title'>Skills</h2>
