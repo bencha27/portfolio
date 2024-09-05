@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ab751269.css",
+    "main.js": "/portfolio/static/js/main.23937436.js",
+    "static/media/screenshot-guardian-guide.png": "/portfolio/static/media/screenshot-guardian-guide.ac78d5225290d61a63fc.png",
+    "static/media/screenshot-virtual-book-club.png": "/portfolio/static/media/screenshot-virtual-book-club.a66808a8b93ea42c190d.png",
+    "static/media/screenshot-basic-calculator.png": "/portfolio/static/media/screenshot-basic-calculator.389e53c2d35235d4f559.png",
+    "index.html": "/portfolio/index.html",
+    "main.ab751269.css.map": "/portfolio/static/css/main.ab751269.css.map",
+    "main.23937436.js.map": "/portfolio/static/js/main.23937436.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab751269.css",
+    "static/js/main.23937436.js"
+  ]
+}
